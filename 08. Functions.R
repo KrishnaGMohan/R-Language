@@ -131,4 +131,4 @@ vapply(cities, nchar, numeric(1), USE.NAMES = FALSE)
 # library(gmp)
 num <- c(65873, 37578, 74357, 75784)
 vapply(num, factorize, FUN.VALUE = numeric(28)) # Will result in an error
-
+##
